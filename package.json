@@ -5,8 +5,8 @@
   "main": "exRouters.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "start": "node --watch --env-file=.env app.js"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
